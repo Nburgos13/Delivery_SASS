@@ -1,0 +1,14 @@
+@use "base/variables" as v;
+@use "base/mixins" as m;
+
+.testimonial {
+  background-color: v.$secundario;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 1rem;
+  color: v.$blanco;
+
+  &:last-of-type {
+    margin-bottom: 0;
+  }
+}
